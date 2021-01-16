@@ -46,7 +46,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "小名")
+        if (other.name == "小紅")
         {
             playerInArea = true;
             StartCoroutine(Dialog());
@@ -54,7 +54,7 @@ public class NPC : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.name == "小名")
+        if (other.name == "小紅")
         {
             playerInArea = false;
             StopDialog();

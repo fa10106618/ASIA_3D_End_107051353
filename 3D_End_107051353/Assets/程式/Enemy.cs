@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
         ani = GetComponent<Animator>();
 
 
-        player = GameObject.Find("小名").transform;
+        player = GameObject.Find("小紅").transform;
 
         nav.speed = speed;
         nav.stoppingDistance = stopDistance;
